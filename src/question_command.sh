@@ -1,0 +1,1 @@
+aws lambda invoke --function-name KendraBedrockRAGFunction --payload '{"query": "@yuta 今日も事前MTG含めありがとうございます:man-bowing: 来週3/12（水）15:00-16:00で、今日持ち帰ると言った、web3VE（JBA）と当社事業との具体的な連携方法、TF社内的なゴール設定、についてすり合わせさせください！個人的には、ゴールのすり合わせだけではなく、そのあと、短期→中長期的なアジェンダ設定（JBA運営の進め方）どうするか、というのも認識会わせできればと思ってます:pray: （序盤にこれやっておくべきでしたね、すいません…！）"}' --cli-binary-format raw-in-base64-out output.json

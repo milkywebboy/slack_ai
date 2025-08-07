@@ -1,0 +1,28 @@
+{
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "dependencies": {
+    "@aws-sdk/client-bedrock-agent-runtime": "^3.764.0",
+    "@aws-sdk/client-bedrock-runtime": "^3.758.0",
+    "@aws-sdk/client-kendra": "^3.758.0",
+    "@slack/web-api": "^6.3.0",
+    "aws-sdk": "^2.1692.0",
+    "aws4": "^1.13.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "firebase-admin": "^12.1.0",
+    "firebase-functions": "^5.0.1",
+    "openai": "^3.0.0"
+  },
+  "engines": {
+    "node": "18"
+  }
+}
